@@ -43,35 +43,5 @@
     <priority>0.8</priority>
   </url>
 
-
-  <!-- Social media links -->
-  <url>
-    <loc>https://www.linkedin.com/in/dhyeybhuva</loc>
-    <lastmod>2024-09-12</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://github.com/Dhyeybhuva2003</loc>
-    <lastmod>2024-09-12</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://x.com/Dhyey10_25</loc>
-    <lastmod>2024-09-12</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://www.instagram.com/?hl=en</loc>
-    <lastmod>2024-09-12</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
   <!-- Add other social media or important pages if necessary -->
 </urlset>
