@@ -1,33 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main site URL -->
+  <url>
+    <loc>https://dhyeybhuva.netlify.app/</loc>
+    <lastmod>2024-09-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Add other pages of your website here -->
+  <!-- Example: -->
+  
+  <url>
+    <loc>https://dhyeybhuva.netlify.app/#home</loc>
+    <lastmod>2024-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
     <url>
-        <loc>https://vinodjangid.site</loc>
-        <lastmod>2024-03-08</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://vinodjangid.site/AXOCEAN</loc>
-        <lastmod>2024-03-08</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://vinodjangid.site/Pexelicons</loc>
-        <lastmod>2024-03-08</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://vinodjangid.site/Aquaregia</loc>
-        <lastmod>2024-03-08</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://vinodjangid.site/QR-Generator</loc>
-        <lastmod>2024-03-08</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
+    <loc>https://dhyeybhuva.netlify.app/#about</loc>
+    <lastmod>2024-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+   <url>
+    <loc>https://dhyeybhuva.netlify.app/#about</loc>
+    <lastmod>2024-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+   <url>
+    <loc>https://dhyeybhuva.netlify.app/#skills</loc>
+    <lastmod>2024-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+   <url>
+    <loc>https://dhyeybhuva.netlify.app/#projects</loc>
+    <lastmod>2024-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+
+  <!-- Social media links -->
+  <url>
+    <loc>https://www.linkedin.com/in/dhyeybhuva</loc>
+    <lastmod>2024-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://github.com/Dhyeybhuva2003</loc>
+    <lastmod>2024-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://x.com/Dhyey10_25</loc>
+    <lastmod>2024-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.instagram.com/?hl=en</loc>
+    <lastmod>2024-09-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Add other social media or important pages if necessary -->
 </urlset>
