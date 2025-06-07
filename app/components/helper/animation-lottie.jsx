@@ -1,19 +1,31 @@
-"use client";
+'use client';
 
-import Lottie from "lottie-react";
+import dynamic from 'next/dynamic';
+import { useEffect, useState } from 'react';
 
-const AnimationLottie = ({ animationPath, width }) => {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationPath,
-    style: {
-      width: '95%',
-    }
-  };
+const Lottie = dynamic(() => import('lottie-react'), {
+  ssr: false,
+});
+
+const AnimationLottie = ({ animationPath, width = '95%' }) => {
+  const [animationData, setAnimationData] = useState(null);
+
+  useEffect(() => {
+    fetch(animationPath)
+      .then((res) => res.json())
+      .then((data) => setAnimationData(data))
+      .catch((err) => console.error('Failed to load animation:', err));
+  }, [animationPath]);
+
+  if (!animationData) return null; // Or a loading spinner
 
   return (
-    <Lottie {...defaultOptions} />
+    <Lottie
+      animationData={animationData}
+      loop
+      autoplay
+      style={{ width }}
+    />
   );
 };
 
