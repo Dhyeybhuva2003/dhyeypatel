@@ -7,5 +7,6 @@ export const contactsData = {
     linkedIn: 'https://linkedin.com/in/dhyeybhuva/',
     twitter: 'https://x.com/Dhyey_bhuva',
     stackOverflow: 'https://stackoverflow.com/users/23957906/dhyey-patel',
+    upwork: 'https://www.upwork.com/freelancers/~01d4c44951f41c2c1d?mp_source=share',
     devUsername: "DhyeyBhuva"
-}
+};
