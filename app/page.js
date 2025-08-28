@@ -27,6 +27,8 @@ export default async function Home() {
 
   return (
     <>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3072870140293387"
+     crossorigin="anonymous"></script>
       <HeroSection />
       <AboutSection />
       <Experience />
